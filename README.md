@@ -105,19 +105,14 @@ As a registered buyer, I can checkout items selected in my shopping cart so that
 <sup>Thank you page</sup>
 
 
-
 ## Commands to Run the Tests (Linux / Windows)
-* Install dependencies
-npm install
 
-* Install Playwright browsers
-npx playwright install
-
-* Run all tests
+```bash
+# Run all tests
 npx playwright test
 
-* Run tests in UI mode
+# Run tests in UI mode
 npx playwright test --ui
 
-* Open test report
+# Open test report
 npx playwright show-report
