@@ -107,7 +107,14 @@ As a registered buyer, I can checkout items selected in my shopping cart so that
 
 ## Commands to Run the Tests (Linux / Windows)
 
+
 ```bash
+# Install dependencies
+npm install
+
+# Install Playwright 
+npx playwright install
+
 # Run all tests
 npx playwright test
 
